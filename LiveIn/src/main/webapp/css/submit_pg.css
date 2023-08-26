@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+
+
+
+.submit{
+    /* background-color: red; */
+    /* height: 100vh; */
+    padding: 12px;
+    width: 80%;
+    margin: 64px auto;
+    color: #065c77;
+    border-radius: 24px;
+    border: 1px #999 solid;
+}
+.submit-box{
+    width: 100%;
+    /* background-color: blue; */
+    margin: 12px 0;
+    padding: 8px 0;
+    /* height: 72px; */
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 16px;
+    /* background-color: brown; */
+    /* padding: 0 12px; */
+}
+.submit-box-box1{
+    /* background-color: aqua; */
+    width: 250px;
+}
+.submit label{
+    font-size: 24px;
+    display: block;
+    margin:4px 0 ;
+}
+.submit input,select,textarea{
+    width: 100%;
+    /* color: white; */
+    padding: 12px 16px;
+    background-color: white;
+}
+.submit-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+    flex-wrap: wrap;
+    row-gap: 16px;
+}
+.submit-box button{
+    outline: none;
+    padding: 8px 32px;
+    border: none;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: #065c77;
+    color: white;
+}
+.submit-box button:hover{
+    background-color: white;
+    color: #065c77;
+}
+
+.submit input,select,textarea{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    /* background-color: purple; */
+}
+@media screen  and (width<=1420px){
+    .submit-box-box1{
+        flex-grow: 1;
+    }
+}
+@media screen  and (width<=720px){
+    .submit{
+        width: 90%;
+    }
+    .submit button{
+        width: 100%;
+    }
+}

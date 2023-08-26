@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+
+
+
+/* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } */
+        .newly-added{
+            /*  background-color: red;  */
+            /* height:75vh; */
+            overflow:scroll;
+            padding: 72px 36px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 36px;
+        }
+        .container-c{
+            /* background-color: blue; */
+            width: 360px;
+            /* padding: 32px 24px; */
+            /* padding-bottom: 16px; */
+            height: fit-content;
+            color: #6c757d;
+            display: flex;
+            flex-direction: column;
+            column-gap: 16px;
+            transition: all 1s ease;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .container-c:hover{
+            transform: scale(1.1);
+            transition: all 1s ease;
+        }
+        /* .pg-image{
+            height: 250px;
+            width: 360px;
+        } */
+        .pg-image img{
+            width: 100%;
+        }
+        .pg-name,.pg-address,.pg-info-table,.pg-owner-info{
+            width: 100%;
+            margin-top: 10px;
+        }
+        .pg-info-table{
+            background-color: #6c757d;
+            font-size: 18px;
+            text-align: left;
+            /* background-color: transparent; */
+            color: white;
+        }
+        .bi-geo-alt-fill,.bi-person-fill,.bi-calendar-fill{
+            margin-right: 4px;
+        }
+        
+        table{
+            /* border: 1px red solid; */
+            border-collapse: collapse;
+        }
+        td{
+            padding: 8px 8px;
+            border-bottom: 2px white solid;
+        }
+        .pg-owner-info{
+            display: flex;
+            justify-content: space-between;
+            font-size: 18px;
+        }
+        .pg-info{
+            padding: 0 16px;
+        }
+        .pg-name{
+            letter-spacing: 1px;
+            word-spacing: 2px;
+        }
+        .pg-address{
+            font-size: 18px;
+        }
+        @media (width<=720px){
+            .container{
+                width: 80%;
+            }
+        }
+        @media (width<=500px){
+            .container{
+                width: 90%;
+            }
+        }

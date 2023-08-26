@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+
+body {
+    /* font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    min-height: 100vh; */
+     /* padding:0 2em; */
+    background-image: linear-gradient(to left, #065c77, #007e97, #00a2b1, #00c6c4, #12ebce);
+} 
+
+.registration-container {
+    background-color: white;
+    padding: 20px;
+    margin:50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+.registration-form input{
+	outline:none
+}
+.registration-container h2 {
+    text-align: center;
+}
+
+.registration-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover{
+    		background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    		box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    }

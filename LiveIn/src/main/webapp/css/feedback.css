@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+
+
+body{
+	 /* padding:0 2em; */
+	    background-image: linear-gradient(to left, #065c77, #007e97, #00a2b1, #00c6c4, #12ebce);
+}
+
+ .feedback-form{
+            width: 500px;
+            padding:2rem ;
+            margin:5em auto;
+            border :1px solid #ccc;
+            text-align: center;
+            border-radius:12px;
+              box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            background:#fff;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+     .feedback-form .head{
+        	font-weight:bold;
+        	font-size:40px
+        }
+        /* .btn{
+        	outline:none;
+        	border:none
+        } */
+       .feedback-form .flex{
+        	display:flex;
+        	justify-content:center
+        }
+       .feedback-form .btn{
+        	width:100%
+        }
+    .btn button{
+         width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+   .btn button:hover,.feedback-form button:hover{
+    		background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    		box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+    }
